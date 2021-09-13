@@ -111,7 +111,6 @@ a {
   -webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
   -ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-  border-bottom: dotted 1px;
   color: #1F618D;
   text-decoration: none; }
   a:hover {
@@ -1406,7 +1405,8 @@ ul.contact {
       ul.contact li:first-child:before {
         top: 0; }
     ul.contact li a {
-      color: inherit; }
+      color: inherit; 
+    }
 
 /* Pagination */
 ul.pagination {
